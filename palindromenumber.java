@@ -11,15 +11,15 @@ public class palindromenumber {
         	 rev=rev*10+num%10;
         	 num=num/10;
          }
-//         if(b==rev)
-//         {
-//        	 System.out.println("palindrome");
-//         }
-//         else
-//         {
-//        	 System.out.println("not palindrome");
-//         }
-         System.out.println(rev);
+         if(b==rev)
+         {
+       	 System.out.println("palindrome");
+        }
+	 else
+        {
+       	 System.out.println("not palindrome");
+        }
+        
 	}
 
 }
