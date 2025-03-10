@@ -4,7 +4,7 @@ public class palindromenumber {
 
 	public static void main(String[] args) {
          int num=1515;
-//         int b=num;
+        int b=num;
          int rev=0;
          while(num > 0)
          {
